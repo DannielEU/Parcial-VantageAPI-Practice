@@ -1,8 +1,8 @@
 package com.api.parcial.provider;
 
 import com.api.parcial.model.StockResponse;
-import tools.jackson.databind.ObjectMapper;
-import tools.jackson.databind.JsonNode;
+import com.fasterxml.jackson.databind.ObjectMapper;
+import com.fasterxml.jackson.databind.JsonNode;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.web.client.RestClientException;
 import org.springframework.web.client.RestTemplate;
